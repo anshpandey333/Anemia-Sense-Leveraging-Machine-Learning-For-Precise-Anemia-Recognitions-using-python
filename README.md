@@ -34,7 +34,7 @@ Supplements 💊
 Medications 💉
 Blood transfusions 🩸 (in severe cases)
 Prompt detection and treatment of anemia are crucial to prevent complications like heart issues, cognitive impairment, and developmental delays in children.
-----
+
 
 ## 🗂️ What's Inside
 This project covers multiple aspects of machine learning for anemia detection:
