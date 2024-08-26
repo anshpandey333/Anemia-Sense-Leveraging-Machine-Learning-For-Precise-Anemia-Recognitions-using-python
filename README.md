@@ -30,8 +30,5 @@ Supplements 💊
 Medications 💉
 Blood transfusions 🩸 (in severe cases)
 Prompt detection and treatment of anemia are crucial to prevent complications like heart issues, cognitive impairment, and developmental delays in children.
-## 🤝 Contributing
-Contributions are what make the open-source community such an incredible place to learn, inspire, and create. Your contributions to this project are greatly appreciated! 🙌
 
-Feel free to fork this repo, make improvements, and submit a pull request. Let's collaborate to enhance this project and make it even more impactful! 🚀
 
