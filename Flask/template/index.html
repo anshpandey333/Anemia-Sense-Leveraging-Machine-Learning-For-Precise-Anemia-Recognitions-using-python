@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anemia-Sense</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Anemia Recognition System</h1>
+            <p class="subtitle">Predict and assess anemia with high precision</p>
+            <form id="anemiaForm">
+                <div class="input-group">
+                    <label for="feature1">Hemoglobin:</label>
+                    <input type="text" id="feature1" name="feature1" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="feature2">MCH:</label>
+                    <input type="text" id="feature2" name="feature2" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="feature3">MCHC:</label>
+                    <input type="text" id="feature3" name="feature3" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="feature4">MCV:</label>
+                    <input type="text" id="feature4" name="feature4" required>
+                </div>
+                
+                <button type="submit" class="btn">Predict</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
